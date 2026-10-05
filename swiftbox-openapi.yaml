@@ -1,0 +1,36 @@
+openapi: 3.1.0
+info:
+  title: SwiftBox Partner API
+  version: 1.0.0
+  description: Placeholder OpenAPI definition for the SwiftBox Partner API.
+servers:
+  - url: https://api.swiftbox.com/api/v1
+security:
+  - ApiKeyAuth: []
+paths:
+  /orders:
+    post:
+      summary: Create a new delivery order
+      operationId: createOrder
+      responses:
+        "201":
+          description: Order created
+  /orders/{order_id}:
+    get:
+      summary: Retrieve order details
+      operationId: getOrder
+      parameters:
+        - name: order_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Order details
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
