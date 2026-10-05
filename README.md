@@ -13,7 +13,7 @@ This project demonstrates professional technical writing and documentation archi
 
 ## Live Demo
 
-View the hosted demo at [https://swiftbox-demo.netlify.app](https://swiftbox-demo.netlify.app).
+View the hosted demo at [[https://swiftbox-demo.netlify.app](https://swiftbox-demo.netlify.app](https://ikiiihiyori.github.io/swiftbox-api-docs/)).
 
 ## Tech Stack
 
