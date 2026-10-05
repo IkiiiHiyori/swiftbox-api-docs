@@ -1,0 +1,3 @@
+Makefile linguist-documentation=true
+docs/**/*.md linguist-language=Markdown
+docs/**/*.yaml linguist-language=YAML
